@@ -1,0 +1,1414 @@
+/*================RESET*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap'); /*font-family: 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap');/*font-family: 'Raleway', sans-serif;*/
+@font-face {
+    font-family: 'ralewayblack';
+    src: url('fonts/raleway_black/raleway-black-webfont.eot');
+    src: url('fonts/raleway_black/raleway-black-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/raleway_black/raleway-black-webfont.woff2') format('woff2'),
+        url('fonts/raleway_black/raleway-black-webfont.woff') format('woff'),
+        url('fonts/raleway_black/') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,
+pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,
+strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,
+legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,
+embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,
+time,mark,audio,video,button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,aside,details,figcaption,figure,footer,
+header,hgroup,menu,nav,section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+/*==========================
+=====CODE===================
+==========================*/
+
+.wrapper {
+    width: 1244px;
+    margin: 0 auto;
+}
+
+/*=============================
+====HEADER=====================
+=============================*/
+body{
+    width: 1366px;
+    outline: 2px solid lime;
+}
+header {
+    min-height: 668px;
+    max-width: 1366px;
+    background: url('images/home_screen.jpg');
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+header::before {
+    position: absolute;
+    content: "";
+    left: -69px;
+    top: 505px;
+    width: 1381px; 
+    height: 178px;
+    background: url('images/css_sprites.png') -10px -10px;
+}
+
+header::after {
+    position: absolute;
+    content: "";
+    left: 332px;
+    top: 461px;
+    width: 980px; 
+    height: 136px;
+    background: url('images/css_sprites.png') -10px -621px;
+}
+
+.outter_wrap {
+    background:linear-gradient(174.45deg, rgb(0, 0, 0) 82%, rgb(0, 0, 0) 83.4%, rgb(21, 17, 18) 83.4%, rgb(21, 17, 18) 100%); 
+}
+
+.logos {
+    position: relative;
+    top: 121px;
+    left: 9px;
+    width: 383px; 
+    height: 325px;
+    background: url('images/css_sprites.png') -589px -208px;
+}
+
+.logos>p {
+    position: relative;
+    width: 296px;
+    height: 53px;
+    top: 94px;
+    left: 56px;
+    color: rgb(255, 255, 255);
+    font-family: 'ralewayblack';
+    font-size: 72px;
+    font-weight: 900;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1.08px;
+}
+
+.logos>p+p {
+    position: relative;
+    margin-top: 20px;
+    width: 296px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 300;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.main_logo {
+    position: relative;
+    top: 47px;
+    left: 66px;
+    padding-left: 53px;
+    height: 39px;
+    width: 69px;
+    
+    font-family: 'ralewayblack';
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+.main_logo>a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.main_logo>a:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: -8px;
+    width: 36px; 
+    height: 39px;
+    background: url('images/css_sprites.png') -1187px -259px;
+}
+
+.sign_up {
+    position: relative;
+    top: -109px;
+    left: 921px;
+    width: 234px;
+}
+
+.sign_up>p {
+    height: 59px;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    line-height: 1.2em;
+}
+
+.sign_up>button {
+    margin-top: 27px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(175, 28, 26);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.4px; 
+    cursor: pointer;
+}
+
+nav {
+    background-color: rgb(22, 17, 19);
+    margin-top: 88px;
+    padding: 40px 0 0 675px;
+    position: absolute;
+    clip-path: polygon(55% 70%, 100% 70%, 100% 100%, 55% 100%);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*=============================
+====ABOUT US===================
+=============================*/
+
+.about_us_wrap {
+    background:linear-gradient(190.9deg, rgb(22, 17, 19) 67.8%, rgb(169, 27, 25) 68%, rgb(169, 27, 25) 100%); 
+}
+
+
+
+#about_us {
+    padding: 120px 0 160px;
+    
+}
+
+#about_us>div {
+    display: flex;
+    justify-content: center;
+}
+
+#about_us>div>div:first-child{
+    width: 94px;
+}
+
+#about_us_name{
+    transform: rotate(270deg) translate(40px, -65px);
+    position: relative;
+    width: 158px;
+    top: 50%;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+}
+
+.about_us_photo {
+    width: 540px;
+    height: 414px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+    align-items: flex-end;
+}
+
+.about_us_photo>img {
+    margin: 30px 30px 0 0;
+    width: 160px;
+    height: 105px;
+}
+
+.about_us_photo>img:active,.about_us_photo>img:first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: unset;
+    height: unset;
+    margin: unset;
+
+}
+
+#about_us>div>div+div+div {
+    width: 445px;
+    margin-left: 30px;
+}
+
+
+
+#about_us>div>div+div>p:first-child {
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+
+#about_us>div>div+div>p+p {
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    letter-spacing: 0.4px;
+    line-height: normal;
+}
+
+/*=============================
+======GALLERY==================
+=============================*/
+.gallery_slide {
+    position: relative;
+    width: 730px;
+    height: 510px;
+    margin: 0 auto;
+}
+
+.gallery_wrap{
+    background-color: rgb(169, 27, 25);
+    position: relative;
+
+}
+
+
+
+#gal1,
+#gal2,
+#gal3,
+#gal4 {
+    display: none;
+}
+
+#gal1+label,
+#gal2+label,
+#gal3+label,
+#gal4+label,
+#to1, #to2, #to3 {
+    display: block;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+#gal1:active+label,
+#gal2:active+label,
+#gal3:active+label,
+#gal4:active+label,
+#to1:active, #to2:active, #to3:active {
+    border-color: black;
+}
+
+
+.gallery_slide>div {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+input[value="gal1"]:checked~#to1,
+input[value="gal2"]:checked~#to1,
+input[value="gal3"]:checked~#to2,
+input[value="gal4"]:checked~#to3 {
+    position: absolute;
+    left: -71px;
+    top: 38%;
+    transform: translate(0, -50%);
+}
+
+input[value="gal1"]:checked~#to1:before,
+input[value="gal2"]:checked~#to1:before,
+input[value="gal3"]:checked~#to2:before,
+input[value="gal4"]:checked~#to3:before {
+    content: "";
+    position: absolute;
+    border-top: 3px solid rgb(255, 255, 255);
+    border-left: 3px solid rgb(255, 255, 255);
+    left: 16px;
+    top: 50%;
+    transform: translate(0, -50%) rotate(-45deg);
+    width: 13px;
+    height: 13px;
+}
+
+input[value="gal1"]:checked~#gal2+label, 
+input[value="gal2"]:checked~#gal3+label, 
+input[value="gal3"]:checked~#gal4+label, 
+input[value="gal4"]:checked~#gal4+label {
+    position: absolute;
+    right: -71px;
+    top: 38%;
+    transform: translate(0, -50%);    
+}
+
+
+input[value="gal1"]:checked~#gal2+label:before,
+input[value="gal2"]:checked~#gal3+label:before,
+input[value="gal3"]:checked~#gal4+label:before,
+input[value="gal4"]:checked~#gal4+label:before {
+    content: "";
+    position: absolute;
+    border-top: 3px solid rgb(255, 255, 255);
+    border-left: 3px solid rgb(255, 255, 255);
+    right: 16px;
+    top: 50%;
+    transform: translate(0, -50%) rotate(135deg);
+    width: 13px;
+    height: 13px;
+}
+
+input[value="gal1"]:checked~#to1:active:before,
+input[value="gal2"]:checked~#to1:active:before,
+input[value="gal3"]:checked~#to2:active:before,
+input[value="gal4"]:checked~#to3:active:before,
+input[value="gal1"]:checked~#gal2+label:active:before,
+input[value="gal2"]:checked~#gal3+label:active:before,
+input[value="gal3"]:checked~#gal4+label:active:before,
+input[value="gal4"]:checked~#gal4+label:active:before {
+    border-color: black;
+}
+
+
+.gallery_slide>div>img {
+    padding-top: 205px;
+    width: 160px;
+    height: 105px;
+}
+
+.gallery_slide>div>img+img {
+    padding-left: 30px;
+}
+
+input[value="gal1"]:checked~div>#gall_pic_1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: unset;
+    height: unset;
+    padding: unset;
+}
+
+input[value="gal1"]:checked~div>#gall_pic_2 {
+    padding-left: unset;
+}
+
+
+input[value="gal2"]:checked~div>#gall_pic_2 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: unset;
+    height: unset;
+    padding: unset;
+}
+
+input[value="gal3"]:checked~div>#gall_pic_3{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: unset;
+    height: unset;
+    padding: unset;
+}
+
+input[value="gal4"]:checked~div>#gall_pic_4 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: unset;
+    height: unset;
+    padding: unset;
+}
+
+input[value="gal4"]:checked~div>img {
+    padding-top: 165px;
+}
+
+#gallery_name {
+    transform: rotate(90deg) translate(-305px, -1089px);
+    position: relative;
+    width: 138px;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+}
+
+/*=============================
+======SHCEDULE=================
+=============================*/
+.schedule_wrap {
+    height: 1088px;
+    background: radial-gradient(circle, rgb(66, 66, 66) -140%, rgb(21, 17, 18) 64%, rgb(21, 17, 18) 100%);
+    position: relative;
+}
+
+.schedule_wrap:before{
+    content: "";
+    position: absolute;
+    top: 0;
+
+    border-top: 66px solid rgb(169, 27, 25);
+    border-left: 683px solid transparent;
+    border-right: 683px solid transparent;
+    filter: drop-shadow(0px 9px 4px rgb(0, 0, 0));
+    z-index: 100;
+}
+
+.schedule_wrap:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+
+    border-bottom: 54px solid rgb(169, 27, 25);
+    border-left: 683px solid transparent;
+    border-right: 683px solid transparent;
+    z-index: 100;
+}
+
+.schedule_wrap>section:before {
+        content: "";
+    position: absolute;
+    top: 0;
+    left: -82px;
+    width: 559px;
+    height: 430px;
+    background: linear-gradient(rgba(169, 27, 25, 0) 0%, rgba(169, 27, 25, 0) 84%, rgb(169, 27, 25) 84%, rgb(169, 27, 25) 100%) 0px 430px/ 478px 430px,url(images/css_sprites.png) -1431px -208px;
+    filter: drop-shadow(-2px 9px 4px black);
+    
+}
+
+.schedule_wrap>section:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 478px; 
+    height: 430px;
+    background: linear-gradient(rgba(169, 27, 25,0) 0%, rgba(169, 27, 25,0) 84%, rgb(169, 27, 25) 84%, rgb(169, 27, 25) 100%) 0px 430px/ 478px 430px, url(images/css_sprites.png) -1320px -777px, linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 66%, rgb(1, 1, 2) 66%, rgb(1, 1, 2) 100%) 476px 0px/ 477px 370px;
+    filter: drop-shadow(2px 9px 4px black);
+}
+
+
+#schedule_name {
+    transform: rotate(270deg) translate(40px, 28px);
+    position: relative;
+    width: 158px;
+    top: 50%;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+}
+
+.pers_train {
+    height: 430px;
+}
+
+.pers_train>p,.pers_train>button {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.pers_train>p {
+    width: 400px;
+    height: 66px;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 110px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 130px;
+}
+
+.pers_train>p+p {
+    font-weight: 700;
+    font-size: 36px;
+    font-style: normal;
+    letter-spacing: 1.8px;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+.pers_train>button {
+    width: 84px;
+    height: 40px;
+    background-color: rgb(175, 28, 26);
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.4px; 
+    cursor: pointer;
+}
+
+.pers_train>button+p {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    line-height: normal;
+    padding-top: 70px;
+}
+
+.week {
+    display: flex;
+    margin: 0 153px;
+    justify-content: space-around;
+    align-items: center;
+    height: 72px;
+}
+
+.days {
+    width: 81px;
+    height: 12px;
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.days.long {
+    width: 93px;
+}
+
+.days_active {
+    font-weight: 700;
+}
+
+.working_hours {
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+
+.working_hours>div {
+    width: 255px;
+    height: 60px;
+    background-color: rgb(184, 178, 178);
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 60px;
+    text-align: left; 
+}
+
+.working_hours>div:active {
+    width: 270px;
+    height: 76px;
+    background-color: rgb(175, 28, 26);
+    color: rgb(255, 255, 255);
+    margin: -8px;
+}
+
+.working_hours>div+div+div:active {
+    margin: 7px -8px -8px;
+}
+
+.working_hours>div>span {
+    padding-left: 35px;
+}
+
+.working_hours>div+div+div>span {
+    padding-left: 20px;
+}
+
+.working_hours>div+div+div>span+span {
+    padding-left: unset;
+}
+
+.working_hours>div>span+span {
+    font-size: 18px;
+    vertical-align: text-top;
+    padding: unset;
+    line-height: 30px;
+}
+
+
+.schedule .working_hours>div>span+span+span {
+    font-size: 18px;
+    font-weight: 300;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.working_hours>div:active>span+span+span{
+    display: inline-block;
+    transform: translate(0, -6px);
+}
+
+.working_hours>div:active .training_place {
+    display: block;
+}
+
+.training_place {
+    display: none;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+    transform: translate(95px, -45px);
+}
+
+.working_hours>div+div+div {
+    margin-top: 15px;
+}
+
+.schedule {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calendar {
+    width: 350px;
+    height: 410px;
+    margin-right: 70px;
+}
+
+.calendar>div:first-child {
+    height: 135px;
+    background: radial-gradient(circle at 68px 66px, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 12.7%, rgb(255, 255, 255) 12.7%, rgb(255, 255, 255) 13.5%, rgba(255, 255, 255, 0) 13.5%),
+        linear-gradient(to top, rgb(143, 23, 21) 0%, rgb(175, 28, 26) 100%);
+}
+
+.calendar>div+div {
+    height: 72px;
+    background-color: rgb(72, 28, 28);
+}
+
+.calendar>div+div+div {
+    height: 203px;
+}
+
+.calendar>div>p {
+    width: 161px;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    padding: 22px 0 0 138px;
+}
+
+.calendar>div>p+p {
+    width: 78px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: lowercase;
+    padding-top: 8px;
+}
+/*temporary NO EFFECT buttons. JS await*/
+.calend_next {
+    cursor: pointer;
+    position: relative;
+}
+
+.calend_next:before {
+    content: "";
+    position: absolute;
+    border-top: 3px solid rgb(255, 255, 255);
+    border-left: 3px solid rgb(255, 255, 255);
+    right: -90px;
+    top: -5px;
+    transform: translate(0, -50%) rotate(135deg);
+    width: 7px;
+    height: 7px;
+}
+
+.calend_prev {
+    cursor: pointer;
+    position: relative;
+}
+
+.calend_prev:before {
+    content: "";
+    position: absolute;
+    border-top: 3px solid rgb(255, 255, 255);
+    border-left: 3px solid rgb(255, 255, 255);
+    right: 80px;
+    top: -5px;
+    transform: translate(0, -50%) rotate(-45deg);
+    width: 7px;
+    height: 7px;
+}
+
+.calendar>div+div {
+    text-align: center;
+}
+
+.calendar>div+div>span {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 74px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+
+.headache_calendar {
+    display: grid;
+    grid: repeat(7, 27px)/ auto-flow 46px;
+
+}
+
+.headache_calendar>div {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: right;
+    cursor: default;
+    position: relative;
+    z-index: 10;
+}
+
+/*MADE ONLY FOR THE SINGLE EXAMPLE JUST TO SHOW HOW DOES IT WORK*/
+.headache_calendar>div>div {
+    display: none;
+    position: absolute;
+    top: -241px;
+    left: -41px;
+    width: 27px;
+    height: 22px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.headache_calendar>div:nth-child(7n+1) {
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+.headache_calendar>div:hover:before {
+    content: "";
+    position: absolute;
+    background: radial-gradient(circle at 68px 66px, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 12.7%, rgb(255, 255, 255) 12.7%, rgb(255, 255, 255) 13.5%, rgba(255, 255, 255, 0) 13.5%);
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    top: -7px;
+    left: 21px;
+}
+
+.headache_calendar>div:active:before {
+    content: "";
+    position: absolute;
+    background: radial-gradient(circle, rgb(143, 23, 21) 0%, rgb(143, 23, 21) 100%);
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    top: -7px;
+    left: 21px;
+    z-index: -5;
+}
+
+.headache_calendar>div:active:hover:before {
+    background: radial-gradient(circle, rgb(143, 23, 21) 0%, rgb(143, 23, 21) 100%);
+        border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.headache_calendar>div:active>div {
+    display: unset;
+}
+
+/*=============================
+=======PRICE===================
+=============================*/
+
+.price_wrap {
+    height: 383px;
+    background-color: rgb(169, 27, 25);
+    position: relative;
+}
+
+.price_wrap:after{
+    content: "";
+    height: 172px;
+    top: 100%;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(173deg, rgb(169, 27, 25) 48%, rgba(0, 0, 0, 0) 48.5%, rgba(0, 0, 0, 0) 100%),
+        linear-gradient(173deg, rgb(0, 0, 0) 48%, rgba(0, 0, 0, 0) 51.5%, rgba(0, 0, 0, 0) 100%);
+}
+
+.prices {
+    display: flex;
+    justify-content: center;
+}
+
+.prices>div {
+    width: 350px;
+    height: 180px;
+    background: linear-gradient(238deg, rgb(72, 28, 28) 0%, rgb(72, 28, 28) 30.5%, rgba(0, 0, 0, 0) 32%, rgba(0, 0, 0, 0) 100%) 2px 72px/ 50px 50px, linear-gradient(122deg, rgb(72, 28, 28) 0%, rgb(72, 28, 28) 30.5%, rgba(0, 0, 0, 0) 32%, rgba(0, 0, 0, 0) 100%) 51px 72px/ 50px 50px, linear-gradient(rgb(72, 28, 28) 50%, rgb(184, 178, 178) 50%, rgb(184, 178, 178) 100%);
+    background-repeat: no-repeat;
+}
+
+.prices>div+div {
+    margin-left: 30px;
+}
+
+.price_wrap p {
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.prices p {
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    position: relative;
+    top: 25%;
+    transform: translate(0, -120%);
+}
+
+.prices div:first-child p {
+    transform: translate(0, -50%);
+}
+
+.prices p+p {
+    text-transform: unset;
+}
+
+.prices p:last-child {
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 700;
+    top: 60px;
+    transform: translate(0);
+}
+
+#price>p {
+    padding: 65px 0 59px;
+}
+
+.prices div:first-child p:last-child {
+    top: 90px;
+}
+
+/*=============================
+========TEAM===================
+=============================*/
+
+.team_wrap {
+    height: 722px;
+    background: linear-gradient(257deg, rgb(0, 0, 0) 0%, rgb(32, 25, 27) 100%);
+}
+
+#team {
+    display: flex;
+    justify-content: center;
+}
+
+#team>p {
+    transform: rotate(270deg) translate(71px, 156px);
+    position: relative;
+    width: 158px;
+    top: 50%;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+}
+
+.person_1 {
+    position: relative;
+    top: 89px;
+    left: 164px;
+}
+
+.person_1_info {
+    width: 540px;
+    height: 289px;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 49%, rgb(255, 255, 255) 60%, rgb(255, 255, 255) 61%, rgba(255, 255, 255, 0) 66%, rgba(255, 255, 255, 0) 100%) 500px 120px/ 18px 18px, 
+
+                radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%) 506.5px 143px/ 5px 5px,
+
+                radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 257, 0) 100%) 506.5px 156.5px/ 5px 5px,
+    
+                radial-gradient(circle, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 50%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 0) 100%) 506.5px 170px/ 5px 5px,
+
+                radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 49%, rgb(255, 255, 255) 60%, rgb(255, 255, 255) 61%, rgba(255, 255, 255, 0) 66%, rgba(255, 255, 255, 0) 100%) 500px 180px/ 18px 18px,
+                linear-gradient(to right, rgb(143, 23, 21) 0%, rgb(166, 27, 25) 100%);
+    background-repeat: no-repeat;
+    position: relative;
+    top: -103px;
+    left: -214px;
+}
+
+.person_1_info:before {
+    content: "";
+    position: absolute;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-left: 2px solid rgb(255, 255, 255);
+    right: 28px;
+    top: 187.8px;
+    transform: translate(0, -50%) rotate(225deg);
+    width: 5px;
+    height: 5px;
+}
+
+.person_1_info:after {
+    content: "";
+    position: absolute;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-left: 2px solid rgb(255, 255, 255);
+    right: 28px;
+    top: 129.8px;
+    transform: translate(0, -50%) rotate(45deg);
+    width: 5px;
+    height: 5px;
+}
+
+.person_name {
+    width: 252px;
+    height: 17px;
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    padding: 24px 30px 35px;
+}
+
+.person_info {
+    padding: 0 70px 0 27px;
+    width: 437px;
+    height: 153px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    position: relative;
+}
+
+.person_info::-webkit-scrollbar {
+    display: none;
+}
+
+#team button {
+    display: block;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid rgb(255, 255, 255);
+    position: relative;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.person_certificate {
+    width: 430px;
+    height: 15px;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    padding: 8px 28px;
+}
+
+#team button:active {
+    border-color: black;
+}
+
+#team button:before {
+    content: "";
+    position: absolute;
+    border-top: 3px solid rgb(255, 255, 255);
+    border-left: 3px solid rgb(255, 255, 255);
+    right: 7px;
+    top: 50%;
+    transform: translate(0, -50%) rotate(-45deg);
+    width: 13px;
+    height: 13px;
+}
+
+#team button:active:before {
+    border-color: black;
+}
+
+#team button+button:before {
+    right: 16px;
+    transform: translate(0, -50%) rotate(135deg);
+
+}
+/*temporary NO EFFECT buttons. JS await*/
+.person_prev {
+    top: -73px;
+    left: 61px;
+}
+
+.person_next {
+    top: -113px;
+    left: 328px;
+}
+
+/*=============================
+====FOOTER===CONTACTS==========
+=============================*/
+
+footer {
+    height: 711px;
+    background: linear-gradient(rgb(0,0,0) 0%, rgba(0,0,0,0) 1.6%, rgba(0, 0, 0, 0) 91%,rgb(0, 0, 0) 91%), url('images/home_bot.jpg');
+}
+
+#contact {
+    width: 730px;
+    height: 700px;
+    background: linear-gradient(8deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 49%, rgb(144, 23, 21) 50%) 0px 648px / 365px 52px,
+        linear-gradient(-8deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 49%, rgb(144, 23, 21) 50%) 366px 648px / 365px 52px,
+        linear-gradient(rgb(0, 0, 0) 0%, rgb(173, 27, 25) 1.5%, rgb(146, 23, 21) 100%);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#contact>p {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 87px;
+}
+
+#contact>p+p {
+    font-family: 'ralewayblack';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: unset;
+    padding-bottom: 44px;
+}
+
+#contact>form {
+    width: 540px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#contact>form>input {
+    width: 255px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+#contact>form>input[type="textarea"] {
+    width: 100%;
+    height: 75px;
+    margin-top: 15px;
+    vertical-align: top;
+    box-sizing: border-box;
+    padding-bottom: 45px;
+}
+
+#contact>form>input[type="submit"] {
+    margin-top: 15px;
+    display: none;
+
+}
+
+#contact>form>input[type="submit"]+label {
+    width: 115px;
+    display: block;
+    height: 27px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.4px; 
+    cursor: pointer;
+    border: 2px solid rgb(255, 255, 255);
+    padding-top: 13px;
+    margin-top: 15px;
+    position: relative;
+    left: 213px;
+}
+
+input::placeholder {
+    color: rgb(105, 101, 101);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    padding: 9px 0 0 5px;
+}
+
+.contact_us {
+    width: 540px;
+    margin: 45px auto 0;
+    display: flex;
+}
+
+.contact_us a {
+    text-decoration: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: normal;
+    text-align: left;
+    letter-spacing: 0.16px;
+    padding-left: 60px;
+    position: relative;
+    padding-top: 4px;
+}
+
+.contact_us a+a {
+    padding-top: unset;
+}
+
+.mail_us a {
+    padding-top: 13px;
+}
+
+.contact_us a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 45px;
+    height: 45px;
+    background: url(images/css_sprites.png) -992px -259px;
+}
+
+.contact_us a+a:before {
+    display: none;
+}
+
+.mail_us a:before {
+    background-position: -1122px -259px;
+}
+
+.call_us a:before {
+    background-position: -1057px -259px;
+}
+
+
+.contact_us>div>div {
+    width: 250px;
+    vertical-align: middle;
+    height: 45px;
+    margin-right: 33px;
+}
+
+.contact_us>div>div+div {
+    margin-top: 15px;
+}
+
+.follow_us {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    padding-top: 20px;
+}
+
+.socials {
+    display: flex;
+    width: 103px;
+    height: 31px;
+    margin: 15px auto;
+}
+
+.socials a {
+    display: block;
+    position: relative;
+}
+
+.socials a:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 31px;
+    height: 31px;
+    background: url(images/css_sprites.png) -992px -208px;
+}
+
+.socials a+a:before {
+    left: 36px;
+    background-position: -1028px -208px;
+}
+
+.socials a+a+a:before {
+    left: 72px;
+    background-position: -1064px -208px;
+}
+
+#contact #copyright {
+    font-size: 12px;
+    text-align: right;
+    letter-spacing: 0.12px;
+    position: relative;
+    bottom: 110px;
+    left: 185px;
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GYM</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--===========
+    ====HEADER=====
+    ============-->
+    <div class="outter_wrap">
+        <header class="wrapper">
+            <div class="main_logo">
+                <a href="#">logo</a>
+            </div>
+            <div class="logos">
+                <p>FITNESS</p>
+                <p>WORKOUT WITH ME</p>
+            </div>
+            <div class="sign_up">
+                <p>sign up for free training</p>
+                <button type="button">
+                    sign up!
+                </button>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html#about_us">about us</a></li>
+                    <li><a href="index.html#gallery">gallery</a></li>
+                    <li><a href="index.html#schedule">schedule</a></li>
+                    <li><a href="index.html#price">price</a></li>
+                    <li><a href="index.html#team">team</a></li>
+                    <li><a href="index.html#contact">contact us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!--===========
+    =ABOUT=US=SEC==
+    ============-->
+    <div class="about_us_wrap">
+        <section id="about_us" class="wrapper">
+            <div>
+                <div>
+                    <p id="about_us_name">about us</p>
+                </div>
+
+                <div class="about_us_photo">
+                    <img src="images/content/c1.jpg" alt="pic1">
+                    <img src="images/content/c2.jpg" alt="pic2">
+                    <img src="images/content/c3.jpg" alt="pic3">
+                    <img src="images/content/c4.jpg" alt="pic4">
+                    <img src="images/content/c1.jpg" alt="pic1">
+                </div>
+
+                <div>
+                    <p>welcome to athletic club</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores porro, ratione maxime eum accusantium magnam cumque, a fugiat reiciendis nisi laborum veritatis vitae aperiam ad autem consectetur sed optio deserunt tempore officiis laboriosam facilis dolorem, iure error. Debitis tenetur earum, delectus sit illum impedit tempora non, labore hic, veniam illo veritatis iusto nisi voluptatum nemo.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--===========
+    ====GALLERY====
+    ============-->   
+    <div class="gallery_wrap">
+        <section id="gallery" class="wrapper">
+            <div class="gallery_slide ">
+                <input type="radio" name="gall" value="gal1" id="gal1" checked>
+                <label for="gal1"></label>
+                <input type="radio" name="gall" value="gal2" id="gal2">
+                <label for="gal2"></label>
+                <input type="radio" name="gall" value="gal3" id="gal3">
+                <label for="gal3"></label>
+                <input type="radio" name="gall" value="gal4" id="gal4">
+                <label for="gal4"></label>
+                <label id="to1" for="gal1"></label>
+                <label id="to2" for="gal2"></label>
+                <label id="to3" for="gal3"></label>
+                <div>
+                    <img id="gall_pic_1" src="images/gallery/gal1.jpg" alt="gal1">
+                    <img id="gall_pic_2" src="images/gallery/gal2.jpg" alt="gal2">
+                    <img id="gall_pic_3" src="images/gallery/gal3.jpg" alt="gal3">
+                    <img id="gall_pic_4" src="images/gallery/gal4.jpg" alt="gal4">
+                </div>
+            </div>
+            <div>
+                <p id="gallery_name">gallery</p>
+            </div>
+        </section> 
+    </div>
+    <!--===========
+    ====SCHEDULE===
+    ============-->  
+    <div class="schedule_wrap">
+        
+        <section id="schedule" class="wrapper">
+            <div class="pers_train">
+                <p>more than just</p>
+                <p>personal training</p>
+                <button type="button">
+                    join
+                </button>
+                <p>group classes</p>
+                
+            </div>
+            <div class="week">
+                <div class="days">monday</div>
+                <div class="days days_active">tuesday</div>
+                <div class="days long">wednesday</div>
+                <div class="days">thursday</div>
+                <div class="days">friday</div>
+                <div class="days">saturday</div>
+                <div class="days">sunday</div>
+            </div>
+            <div class="schedule">
+                <div>
+                    <p id="schedule_name">schedule</p>
+                </div>
+                <div class="working_hours">
+                    <div><span>8</span><span>:30</span><span>yoga</span></div>
+                    <div><span>9</span><span>:00</span><span>fitness</span></div>
+                    <div><span>10</span><span>:00</span><span>pilates</span></div>
+                    <div><span>17</span><span>:00</span><span>stretching</span></div>
+                    <div><span>17</span><span>:30</span><span>functional training</span></div>
+                    <!--A single example-->
+                    <div><span>18</span><span>:00</span><span>zumba</span><p class="training_place">Fitness hall #2</p></div>
+                    <div><span>18</span><span>:30</span><span>trx</span></div>
+                    <div><span>19</span><span>:00</span><span>hard mix</span></div>
+                    <div><span>19</span><span>:30</span><span>crossfit</span></div>
+                    <div><span>20</span><span>:00</span><span>body sculp</span></div>
+                    <div><span>20</span><span>:00</span><span>functional training</span></div>
+                </div>
+                <div class="calendar">
+                    <div>
+                        <p>recommend today:</p><p>stretching</p>
+                    </div>
+                    <div>
+                        <!--temporary NO EFFECT buttons. JS await-->
+                        <button class="calend_prev"></button>
+                        <span class="current_month">January</span>
+                        <span class="current year">2023</span>
+                        <button class="calend_next"></button>
+                    </div>
+                    <div class="headache_calendar">
+                        <div>mo</div>
+                        <div>26</div>
+                        <div>2</div>
+                        <div>9</div>
+                        <div>16</div>
+                        <div>23</div>
+                        <div>30</div>
+                        <div>tu</div>
+                        <div>27</div>
+                        <div>3</div>
+                        <div>10</div>
+                        <div>17</div>
+                        <div>24</div>
+                        <div>31</div>
+                        <div>we</div>
+                        <div>28</div>
+                        <div>4</div>
+                        <!--MADE ONLY FOR THE SINGLE EXAMPLE JUST TO SHOW HOW DOES IT WORK-->
+                        <div>11<div>11</div></div>
+                        <div>18</div>
+                        <div>25</div>
+                        <div>1</div>
+                        <div>th</div>
+                        <div>29</div>
+                        <div>5</div>
+                        <div>12</div>
+                        <div>19</div>
+                        <div>26</div>
+                        <div>2</div>
+                        <div>fr</div>
+                        <div>30</div>
+                        <div>6</div>
+                        <div>13</div>
+                        <div>20</div>
+                        <div>27</div>
+                        <div>3</div>
+                        <div>sa</div>
+                        <div>31</div>
+                        <div>7</div>
+                        <div>14</div>
+                        <div>21</div>
+                        <div>28</div>
+                        <div>4</div>
+                        <div>su</div>
+                        <div>1</div>
+                        <div>8</div>
+                        <div>15</div>
+                        <div>22</div>
+                        <div>29</div>
+                        <div>5</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--===========
+    =====PRICE=====
+    ============-->
+    <div class="price_wrap">
+        <section id="price" class="wrapper">
+            <p>price</p>
+            <div class="prices">
+                <div>
+                    <p>One-time visit</p>
+                    <p>$ 100</p>
+                </div>
+                <div>
+                    <p>unlimited card</p>
+                    <p>(gym + group classes)</p>
+                    <p>$ 590</p>
+                </div>
+                <div>
+                    <p>unlimited card</p>
+                    <p>(trx, crossfit, gym, group)</p>
+                    <p>$ 690</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!--===========
+        ====TEAM===
+        ============-->
+    <div class="team_wrap">
+        <section id="team" class="wrapper">
+            <p>team</p>
+            <div>
+                <div class="person_1">
+                    <img src="images/people/person_1.jpg" alt="person 1">
+                </div>
+                <div class="person_1_info">
+                    <p class="person_name">juliana makhneva</p>
+                    <p class="person_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, ipsa quo aperiam odio, enim veniam maiores laboriosam architecto non numquam, delectus error ea! Numquam facilis, aperiam, non rem sed possimus autem aspernatur impedit voluptates, beatae sint voluptatum aut atque distinctio dolore. Nostrum doloribus ad tempora quae autem itaque reprehenderit reiciendis hic iusto laboriosam? Similique vitae natus ad adipisci laborum id minus culpa iste impedit ullam illo, temporibus, itaque, aliquid ab deserunt repudiandae! Nisi sint sit quibusdam tempora nesciunt repellat ullam iste placeat nihil tenetur praesentium veritatis id consequuntur maiores libero accusantium excepturi quisquam minima porro optio, nostrum ad amet explicabo. Amet unde vero placeat quas totam, quibusdam deleniti harum eius voluptatem dolorum ipsum, provident possimus corrupti id asperiores. Temporibus dolor et ducimus repellendus ullam pariatur nulla reprehenderit molestias harum, expedita quis impedit quidem magni esse perferendis placeat laboriosam ipsam nemo eum sunt nihil illum voluptatibus. Qui corporis quod veniam voluptatum aliquid id molestias aut fugiat iste ipsa quos, dolor labore voluptas. In, consectetur at ipsam quod temporibus natus fugiat dicta ratione doloribus odit voluptate? Vitae eos atque beatae nihil, libero rem. Eligendi, suscipit neque facilis ipsa reiciendis deleniti explicabo assumenda quisquam ipsam recusandae vitae nemo placeat, repellat ullam, id excepturi!</p>
+                    <p class="person_certificate">certifications: nasm-cpt, nys-lmt,kbc,trx</p>
+                </div>
+                <!--temporary NO EFFECT buttons. JS await-->
+                <button class="person_prev"></button>
+                <button class="person_next"></button>
+            </div>
+        </section>
+    </div>
+        <!--===========
+        ===CONTACT=====
+        ============-->
+    <footer>
+        <div id="contact" class="wrapper">
+            <p>any questions?</p>
+            <p>write us</p>
+            <form action="#">
+                <input type="text" name="contacts" placeholder="Name" required>
+                <input type="email" name="contacts" placeholder="Email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" size="30" required>
+                <input type="textarea" name="contacts" placeholder="Message" required>
+                <input type="submit" name="contacts" id="cont_sub">
+                <label for="cont_sub">send</label>
+            </form>
+            <div class="contact_us">
+                <div>
+                    <div class="location">
+                        <a href="https://www.google.com/maps/place/3371+Wilcox+Rd+%23101,+Lihue,+HI+96766,+%D0%A1%D0%A8%D0%90/@21.9572489,-159.3561882,20.75z/data=!4m5!3m4!1s0x7c071ec0f07862ed:0xb4adee8f0d6dbf33!8m2!3d21.9572569!4d-159.3564484">3371 Wilcox Rd., Unit 101, Lihue, Hawaii 96766</a>
+                    </div >
+                    <div class="mail_us">
+                        <a href="mailto:fitnessclub@gmail.com">fitnessclub@gmail.com</a>
+                    </div>
+                    <div class="call_us">
+                        <a href="tel:+380573731686 ">+38 (057) 373-16-86</a>
+                        <a href="tel:+380637854707">+38 (063) 785-47-07</a>
+                    </div>
+                </div>
+                <div class="map">
+                    <!--google map view mode is temporary not working-->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d275.03456672856527!2d-159.35618815516162!3d21.957248930950154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c071ec102f3e723%3A0x52109e5dd3907f51!2zMzM0MyBXaWxjb3ggUmQsIExpaHVlLCBISSA5Njc2Niwg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1674650369156!5m2!1sru!2sua"
+                        width="255" height="165" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="follow_us">
+                <span>follow us</span>
+            </div>
+            <div class="socials">
+                <a href="#"></a>
+                <a href="##"></a>
+                <a href="###"></a>
+            </div>
+            <p id="copyright">"Fitnessclub" Copyright &#169 23</p>
+        </div>
+    </footer>
+</body>
+</html>
